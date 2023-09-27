@@ -1,4 +1,4 @@
-import jdk.swing.interop.SwingInterOpUtils;
+package lab2.Exercises2;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class ReverseString {
         int inStrLen;  // Length of the input String
 
         // Promt and input as input String
-        System.out.println("Enter a String: ");
+        System.out.print("Enter a String: ");
         inStr = in.next(); // use next() to read a String
         inStrLen = inStr.length();
 

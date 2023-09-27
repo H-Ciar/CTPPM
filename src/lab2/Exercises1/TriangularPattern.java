@@ -1,4 +1,4 @@
-package lab2;
+package lab2.Exercises1;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class TriangularPattern {
                 if (row >= col) {
                     System.out.print("#");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
@@ -22,7 +22,7 @@ public class TriangularPattern {
                 if (row + col <= n + 1) {
                     System.out.print("#");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
@@ -36,7 +36,7 @@ public class TriangularPattern {
                 if (row >= col) {
                     System.out.print("#");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
@@ -49,7 +49,7 @@ public class TriangularPattern {
                 if (row + col >= n + 1) {
                     System.out.print("#");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
@@ -59,8 +59,5 @@ public class TriangularPattern {
 
     public static void main(String[] args) {
         PatternA(3);
-        PatternB(3);
-        PatternC(3);
-        PatternD(3);
     }
 }

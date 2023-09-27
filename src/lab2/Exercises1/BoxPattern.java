@@ -1,4 +1,4 @@
-package lab2;
+package lab2.Exercises1;
 
 public class BoxPattern {
     public static void BoxPatternA(int size){
