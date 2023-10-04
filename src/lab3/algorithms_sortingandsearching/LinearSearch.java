@@ -8,7 +8,6 @@ public class LinearSearch {
             array[i] = i + 5;
         }
 
-
         System.out.println(linearSearch(array, 10));
         System.out.println(linearSearchingIndex(array, 3));
 
