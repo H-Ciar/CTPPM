@@ -33,6 +33,9 @@ public class BinarySearch {
 
     // Return true if key is found in the array
     public boolean binarySearch(int[] array, int key) {
+        if (array == null) {
+            return false;
+        }
         boolean result = binarySearch(array, key, 0, array.length - 1);
 
         return result;

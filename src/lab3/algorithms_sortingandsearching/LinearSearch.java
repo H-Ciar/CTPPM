@@ -14,6 +14,9 @@ public class LinearSearch {
     }
 
     public static boolean linearSearch(int[] array, int key) {
+        if (array == null) {
+            return false;
+        }
 
         for (int i = 0; i < array.length; i++) {
             if (key == array[i]) {

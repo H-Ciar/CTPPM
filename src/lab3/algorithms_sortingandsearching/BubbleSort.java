@@ -9,6 +9,7 @@ class BubbleSort {
     // An optimized version of Bubble Sort
     static void bubbleSort(int arr[], int n)
     {
+
         int i, j, temp;
         boolean swapped;
         for (i = 0; i < n - 1; i++) {
