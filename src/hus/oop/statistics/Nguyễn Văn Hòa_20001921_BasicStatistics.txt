@@ -1,0 +1,7 @@
+Kích thước tập dữ liệu: 4
+Các phần tử trong tập dữ liệu: 10.5 6.2 8.7 4.3
+Các phần tử sau khi sửa: 10.5 5.8 8.7 4.3
+Các phần tử sau khi thêm: 7.1 10.5 5.8 8.7 4.3
+Các phần tử sau khi xóa: 7.1 10.5 8.7 4.3
+Các phần tử trong mảng: 7.1 10.5 8.7 4.3
+
